@@ -128,9 +128,14 @@ const roadmapDsaiItems = [
   ];
   
 
-interface RoadmapChildItem {
+  interface RoadmapChildItem {
     number: string;
     title: string;
+    copywriting: string;
+    otiresource: string;
+    externalresource: string;
+    externalresource2: string;
+    externalresource3: string;
 }
 
 const DsaiRoadmap = () => {

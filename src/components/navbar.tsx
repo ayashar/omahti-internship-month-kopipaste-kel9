@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const navbarItems = [
-    { name: "About OmahTI", href: "https://omahti.web.id/" },
+    // { name: "About OmahTI", href: "https://omahti.web.id/" },
     { name: "Roadmaps", href: "/roadmaps" },
     { name: "Archive", href: "/archive" },
 ];

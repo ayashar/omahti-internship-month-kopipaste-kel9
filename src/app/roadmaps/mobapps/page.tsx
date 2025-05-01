@@ -160,11 +160,15 @@ const roadmapMobappsItems = [
   ];
   
 
-interface RoadmapChildItem {
+  interface RoadmapChildItem {
     number: string;
     title: string;
+    copywriting: string;
+    otiresource: string;
+    externalresource: string;
+    externalresource2: string;
+    externalresource3: string;
 }
-
 const MobappsRoadmap = () => {
     const [overlayItem, setOverlayItem] = useState<RoadmapChildItem | null>(null);
 
