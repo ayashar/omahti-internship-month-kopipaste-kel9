@@ -51,7 +51,7 @@ const archiveHero = [
 
 const Hero = () => {
     return (
-        <Container className="flex flex-col gap-10 font-display pt-10 pb-30">
+        <Container className="flex flex-col gap-10 font-display  pb-30">
             <div className="flex flex-col items-center justify-center gap-5 font-display mt-10">
                 <div className="flex flex-col max-w-195 items-start justify-start border-1 bg-gray rounded-[20px] p-10">
                     <h1 className="text-[24px] font-bold">Start Your <span className="text-orange">Developer</span> Journey Here</h1>

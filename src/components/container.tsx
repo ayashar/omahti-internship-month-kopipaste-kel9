@@ -10,7 +10,7 @@ const Container = ({
     return (
         <main 
             className={cn(
-                "flex flex-col gap-4 mx-8 sm:mx-30",
+                "flex flex-col gap-4 mx-8 sm:mx-30 pt-20",
                 className)}>
                     {children}
         </main>
