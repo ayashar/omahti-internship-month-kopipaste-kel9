@@ -24,27 +24,27 @@ const RoadmapHero = [
 
 const archiveHero = [
     {
-        href: "/archive/uiux/pengantar-ui-ux",
+        href: "/archive/uiux/loremipsum",
         title: "Pengantar UI/UX",
     },
     {
-        href: "/archive/cysec/reverse-engineering",
+        href: "/archive/cysec/loremipsum",
         title: "Reverse Engineering",
     },
     {
-        href: "/archive/backend/docker",
+        href: "/archive/backend/loremipsum",
         title: "Docker",
     },
     {
-        href: "/archive/cysec/pengantar-cyber-security",
+        href: "/archive/cysec/loremipsum",
         title: "Pengantar Cyber Security",
     },
     {
-        href: "/archive/gamedev/konsep-desain",
+        href: "/archive/gamedev/loremipsum",
         title: "Konsep Desain dalam Game",
     },
     {
-        href: "/archive/frontend/html-css",
+        href: "/archive/frontend/loremipsum",
         title: "Pengenalan HTML & CSS",
     },
 ]

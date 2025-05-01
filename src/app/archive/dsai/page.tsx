@@ -4,92 +4,92 @@ import Container from "@/components/container";
 import { Button } from "@/components/roadmap-button";
 import Link from "next/link";
 
-const uiuxMaterial = [
+const dsaiMaterial = [
     {
-        href: "/archive/uiux/loremipsum",
-        title: "UI/UX",
+        href: "/archive/dsai/loremipsum",
+        title: "Data Science and Artificial Intelligence",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         type: "PowerPoint"
     },
     {
-        href: "/archive/uiux/loremipsum",
-        title: "UI/UX",
+        href: "/archive/dsai/loremipsum",
+        title: "Data Science and Artificial Intelligence",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         type: "PowerPoint"
     },
     {
-        href: "/archive/uiux/loremipsum",
-        title: "UI/UX",
+        href: "/archive/dsai/loremipsum",
+        title: "Data Science and Artificial Intelligence",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         type: "PowerPoint"
     },
     {
-        href: "/archive/uiux/loremipsum",
-        title: "UI/UX",
+        href: "/archive/dsai/loremipsum",
+        title: "Data Science and Artificial Intelligence",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         type: "PowerPoint"
     },
     {
-        href: "/archive/uiux/loremipsum",
-        title: "UI/UX",
+        href: "/archive/dsai/loremipsum",
+        title: "Data Science and Artificial Intelligence",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         type: "PowerPoint"
     },
     {
-        href: "/archive/uiux/loremipsum",
-        title: "UI/UX",
+        href: "/archive/dsai/loremipsum",
+        title: "Data Science and Artificial Intelligence",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         type: "PowerPoint"
     },
     {
-        href: "/archive/uiux/loremipsum",
-        title: "UI/UX",
+        href: "/archive/dsai/loremipsum",
+        title: "Data Science and Artificial Intelligence",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         type: "PowerPoint"
     },
     {
-        href: "/archive/uiux/loremipsum",
-        title: "UI/UX",
+        href: "/archive/dsai/loremipsum",
+        title: "Data Science and Artificial Intelligence",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         type: "PowerPoint"
     },
     {
-        href: "/archive/uiux/loremipsum",
-        title: "UI/UX",
+        href: "/archive/dsai/loremipsum",
+        title: "Data Science and Artificial Intelligence",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         type: "PowerPoint"
     },
     {
-        href: "/archive/uiux/loremipsum",
-        title: "UI/UX",
+        href: "/archive/dsai/loremipsum",
+        title: "Data Science and Artificial Intelligence",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         type: "PowerPoint"
     },
     {
-        href: "/archive/uiux/loremipsum",
-        title: "UI/UX",
+        href: "/archive/dsai/loremipsum",
+        title: "Data Science and Artificial Intelligence",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         type: "PowerPoint"
     },
     {
-        href: "/archive/uiux/loremipsum",
-        title: "UI/UX",
+        href: "/archive/dsai/loremipsum",
+        title: "Data Science and Artificial Intelligence",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         type: "PowerPoint"
     },
 ];
 
-const uiuxArchive = () => {
+const dsaiArchive = () => {
     return (
         <div className="bg-gradient-to-b from-black to-gray-800 pb-30">
             <Container className="flex flex-col gap-10 font-display mt-15 mb-30 items-center">
                 <h1 className="font-bold text-[32px] items-start">
-                    <span className="text-orange">UI/UX</span> Resources
+                    <span className="text-orange">Data Science and Artificial Intelligence",</span> Resources
                 </h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {uiuxMaterial.map((item, index) => (
+                    {dsaiMaterial.map((item) => (
                         <Link
-                            key={`uiux-${index}`}
+                            key={item.title}
                             href={item.href}
                             className="h-auto w-80 flex flex-col items-center justify-between border bg-white rounded-[20px] shadow-lg overflow-hidden"
                         >
@@ -112,4 +112,4 @@ const uiuxArchive = () => {
     );
 };
 
-export default uiuxArchive;
+export default dsaiArchive;
