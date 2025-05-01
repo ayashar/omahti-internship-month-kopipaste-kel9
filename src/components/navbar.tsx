@@ -30,7 +30,7 @@ const Navbar = () => {
                             href={item.href}
                             className={`text-base transition-colors rounded-md lg:px-3 lg:py-2 ${
                                 pathname === item.href
-                                    ? "bg-orange text-black"
+                                    ? "text-orange"
                                     : "hover:bg-orange hover:text-black"
                             }`}
                         >
