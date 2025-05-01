@@ -87,9 +87,9 @@ const frontendArchive = () => {
                     <span className="text-orange">FrontEnd</span> Resources
                 </h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {frontendMaterial.map((item) => (
+                    {frontendMaterial.map((item, index) => (
                         <Link
-                            key={item.title}
+                            key={`frontend-${index}`}
                             href={item.href}
                             className="h-auto w-80 flex flex-col items-center justify-between border bg-white rounded-[20px] shadow-lg overflow-hidden"
                         >
