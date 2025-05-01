@@ -1,5 +1,6 @@
 import Container from "@/components/container";
 import Link from "next/link";
+import Image from "next/image";
 
 const roadmapNav = [
     {
@@ -54,7 +55,7 @@ const roadmapsHero = () => {
                         <div key={item.title} className="flex flex-col items-center justify-center gap-5 ">
                             <Link href={item.href} className="h-78 w-60 flex flex-col items-center justify-center border bg-gray rounded-[20px] p-10 hover:scale-101 transition-transform hover:bg-white/20">
                                 <div className="flex items-start justify-center w-full h-full">
-                                    <img
+                                    <Image
                                         src={item.img}
                                         alt={item.title}
                                         className="max-h-[120px] mb-3" />

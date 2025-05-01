@@ -1,5 +1,6 @@
 import Container from "@/components/container";
 import Link from "next/link";
+import Image from "next/image";
 
 const RoadmapHero = [
     {
@@ -73,7 +74,7 @@ const Hero = () => {
                                 key={index}
                                 className="flex flex-col  items-start justify-start border bg-gray rounded-[20px] p-10 hover:scale-101 transition-transform hover:bg-white/20"
                             >
-                                <img
+                                <Image
                                     src={item.img}
                                     alt={item.title}
                                     className="max-h-[120px] mb-3" />

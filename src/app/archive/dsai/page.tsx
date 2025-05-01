@@ -84,7 +84,7 @@ const dsaiArchive = () => {
         <div className="bg-gradient-to-b from-black to-gray-800 pb-30">
             <Container className="flex flex-col gap-10 font-display mt-15 mb-30 items-center">
                 <h1 className="font-bold text-[32px] items-start">
-                    <span className="text-orange">Data Science and Artificial Intelligence",</span> Resources
+                    <span className="text-orange">Data Science and Artificial Intelligence</span> Resources
                 </h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {dsaiMaterial.map((item, index) => (

@@ -4,6 +4,7 @@ import { useState } from "react";
 import Container from "@/components/container";
 import { Button } from "@/components/roadmap-button";
 import RoadmapOverlay from "@/components/roadmap-overlay";
+import Image from "next/image";
 
 const cpHero = [
     {
@@ -159,6 +160,11 @@ const roadmapCpItems = [
 interface RoadmapChildItem {
     number: string;
     title: string;
+    copywriting: string;
+    otiresource: string;
+    externalresource: string;
+    externalresource2: string;
+    externalresource3: string;
 }
 
 const CpRoadmap = () => {
@@ -186,7 +192,7 @@ const CpRoadmap = () => {
                                     {item.description}
                                 </p>
                             </div>
-                                <img
+                                <Image
                                     src={item.img}
                                     alt={item.title}
                                     className="max-h-45 mb-3"

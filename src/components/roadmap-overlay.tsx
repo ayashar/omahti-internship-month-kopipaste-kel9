@@ -18,7 +18,6 @@ interface RoadmapOverlayProps {
 
 const RoadmapOverlay = ({ item, onClose }: RoadmapOverlayProps) => {
     useEffect(() => {
-        // Lock the scroll when overlay is open
         if (item) {
             document.body.style.overflow = "hidden";
         } else {
@@ -32,15 +31,13 @@ const RoadmapOverlay = ({ item, onClose }: RoadmapOverlayProps) => {
 
     return (
         <div className={`fixed inset-0 flex z-50 ${item ? "" : "pointer-events-none"}`}>
-            {/* Background overlay */}
             <div
                 className={`flex-1 bg-black/70 transition-opacity duration-300 ${
                     item ? "opacity-100" : "opacity-0"
                 }`}
-                onClick={onClose} // Close overlay when clicking background
+                onClick={onClose}
             ></div>
 
-            {/* Sliding panel */}
             <div
                 className={`w-2/5 bg-[#1E1E1E] text-white shadow-lg p-8 relative transform transition-transform duration-500 ${
                     item ? "translate-x-0" : "translate-x-full"

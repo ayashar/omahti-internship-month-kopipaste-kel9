@@ -4,6 +4,7 @@ import { useState } from "react";
 import Container from "@/components/container";
 import { Button } from "@/components/roadmap-button";
 import RoadmapOverlay from "@/components/roadmap-overlay";
+import Image from "next/image";
 
 const uiuxHero = [
     {
@@ -198,7 +199,7 @@ const UiuxRoadmap = () => {
                                     {item.description}
                                 </p>
                             </div>
-                                <img
+                                <Image
                                     src={item.img}
                                     alt={item.title}
                                     className="max-h-45 mb-3"

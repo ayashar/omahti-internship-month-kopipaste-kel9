@@ -4,6 +4,7 @@ import { useState } from "react";
 import Container from "@/components/container";
 import { Button } from "@/components/roadmap-button";
 import RoadmapOverlay from "@/components/roadmap-overlay";
+import Image from "next/image";
 
 const cysecHero = [
     {
@@ -113,8 +114,12 @@ const roadmapCysecItems = [
 interface RoadmapChildItem {
     number: string;
     title: string;
+    copywriting: string;
+    otiresource: string;
+    externalresource: string;
+    externalresource2: string;
+    externalresource3: string;
 }
-
 const CysecRoadmap = () => {
     const [overlayItem, setOverlayItem] = useState<RoadmapChildItem | null>(null);
 
@@ -140,7 +145,7 @@ const CysecRoadmap = () => {
                                     {item.description}
                                 </p>
                             </div>
-                                <img
+                                <Image
                                     src={item.img}
                                     alt={item.title}
                                     className="max-h-45 mb-3"
@@ -180,7 +185,6 @@ const CysecRoadmap = () => {
                 </div>
             </Container>
 
-                        {/* Render the overlay when an item is clicked */}
                         {overlayItem && (
                             <RoadmapOverlay 
                                 item={overlayItem} 
