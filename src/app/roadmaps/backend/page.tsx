@@ -5,46 +5,55 @@ import Container from "@/components/container";
 import { Button } from "@/components/roadmap-button";
 import RoadmapOverlay from "@/components/roadmap-overlay";
 
-const cysecHero = [
+const backendHero = [
     {
-        title: "Cyber Security",
+        title: "BackEnd",
         description:
-            "Cybersecurity adalah praktik melindungi sistem komputer, jaringan dan informasi sensitif dari serangan, pencurian, dan kerusakan digital.  Hal ini mencakup berbagai strategi, alat, dan teknologi yang melindungi individu dan organisasi dari ancaman seperti peretasan, malware, phishing, dan rekayasa sosial. ",
+            "Backend adalah cabang ilmu komputer yang melibatkan perancangan, pembangunan, dan pemeliharaan bagian server aplikasi web. Hal ini termasuk bekerja dengan database, API, dan logika server untuk memungkinkan front-end aplikasi berfungsi dengan lancar. Pengembang backend bertanggung jawab untuk memastikan kinerja, keamanan, dan skalabilitas infrastruktur server aplikasi, dan untuk membuat sistem yang mudah dipelihara dan diperbarui dari waktu ke waktu.",
         img: "/placeholder.png",
     }
 ]
 
-const roadmapCysecItems = [
+const roadmapBackendItems = [
     {
-        title: "Cyber Security Foundations",
+        title: "Core BackEnd Fundamentals",
         children: [
             { 
                 number: "01.", 
-                title: "Linux Commands", 
-                copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
-                otiresource: "Introduction to Animasi",
+                title: "SQL", 
+                copywriting: "MProin vel urna imperdiet, porta sem venenatis, convallis velit. In volutpat erat et felis gravida, nec ultrices velit consequat. Donec ante dolor, ultrices a diam a, pretium luctus ex. Phasellus in elementum risus. Nulla vitae nibh nec eros pellentesque venenatis quis et elit. Mauris placerat, orci quis mollis bibendum, lacus felis viverra est, non aliquet velit sem facilisis erat. Mauris sed hendrerit sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam massa tellus, rhoncus in tincidunt at, viverra sit amet purus. Integer ante nisi, interdum quis vulputate a, tincidunt varius orci. Etiam ut dolor congue, venenatis ipsum in, interdum nisi. Duis luctus dolor at mauris tristique efficitur. Donec tincidunt elementum gravida. Curabitur orci elit, tincidunt nec erat id, finibus molestie risus. Cras vitae urna ac nisl volutpat luctus. Praesent fringilla fringilla est, nec scelerisque lorem egestas et.ateri ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
+                otiresource: "Lorem Ipsum Dolor Sit",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
                 externalresource2: "Lipsum",
                 externalresource3: "Lorem Ipsum Dolor",
             },
             { 
                 number: "02.", 
-                title: "Basic Forensics",
-                copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
+                title: "Version Control",
+                copywriting: "Proin vel urna imperdiet, porta sem venenatis, convallis velit. In volutpat erat et felis gravida, nec ultrices velit consequat. Donec ante dolor, ultrices a diam a, pretium luctus ex. Phasellus in elementum risus. Nulla vitae nibh nec eros pellentesque venenatis quis et elit. Mauris placerat, orci quis mollis bibendum, lacus felis viverra est, non aliquet velit sem facilisis erat. Mauris sed hendrerit sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam massa tellus, rhoncus in tincidunt at, viverra sit amet purus. Integer ante nisi, interdum quis vulputate a, tincidunt varius orci. Etiam ut dolor congue, venenatis ipsum in, interdum nisi. Duis luctus dolor at mauris tristique efficitur. Donec tincidunt elementum gravida. Curabitur orci elit, tincidunt nec erat id, finibus molestie risus. Cras vitae urna ac nisl volutpat luctus. Praesent fringilla fringilla est, nec scelerisque lorem egestas et.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
                 externalresource2: "Lipsum",
                 externalresource3: "Lorem Ipsum Dolor",
 
             },
+            { 
+                number: "03.", 
+                title: "Relationoal Database",
+                copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
+                otiresource: "Introduction to Animasi",
+                externalresource: "Lorem Ipsum Dolor Sit Amet",
+                externalresource2: "Lipsum",
+                externalresource3: "Lorem Ipsum Dolor",
+            },
         ],
     },
     {
-        title: "Web Exploitations",
+        title: "Security and Testing",
         children: [
             { 
-                number: "03.", 
-                title: "Web Exploitation Introduction",
+                number: "04.", 
+                title: "Server-side Attacks",
                 copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
@@ -52,22 +61,8 @@ const roadmapCysecItems = [
                 externalresource3: "Lorem Ipsum Dolor", 
             },
             { 
-                number: "04.", 
-                title: "Docker for CTF",
-                copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
-                otiresource: "Introduction to Animasi",
-                externalresource: "Lorem Ipsum Dolor Sit Amet",
-                externalresource2: "Lipsum",
-                externalresource3: "Lorem Ipsum Dolor",
-            },
-        ],
-    },
-    {
-        title: "Core Cyber Security Techniques",
-        children: [
-            { 
                 number: "05.", 
-                title: "Reverse Engineering",
+                title: "Cryptography and Authorization",
                 copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
@@ -76,7 +71,30 @@ const roadmapCysecItems = [
             },
             { 
                 number: "06.", 
-                title: "Cryptography",
+                title: "Testing and TDD",
+                copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
+                otiresource: "Introduction to Animasi",
+                externalresource: "Lorem Ipsum Dolor Sit Amet",
+                externalresource2: "Lipsum",
+                externalresource3: "Lorem Ipsum Dolor", 
+            },
+        ],
+    },
+    {
+        title: "Infrastructure and Deployment",
+        children: [
+            { 
+                number: "07.", 
+                title: "Docker and Kubernetes",
+                copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
+                otiresource: "Introduction to Animasi",
+                externalresource: "Lorem Ipsum Dolor Sit Amet",
+                externalresource2: "Lipsum",
+                externalresource3: "Lorem Ipsum Dolor",
+            },
+            { 
+                number: "08.", 
+                title: "Monitoring and Logging",
                 copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
@@ -86,11 +104,11 @@ const roadmapCysecItems = [
         ],
     },
     {
-        title: "Advanced Cyber Security Techniques",
+        title: "Advanced Backend Topics",
         children: [
             { 
                 number: "07.", 
-                title: "Binary Exploitation",
+                title: "Docker and Kubernetes",
                 copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
@@ -99,7 +117,7 @@ const roadmapCysecItems = [
             },
             { 
                 number: "08.", 
-                title: "Web Exploitation",
+                title: "Monitoring and Logging",
                 copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
@@ -115,7 +133,7 @@ interface RoadmapChildItem {
     title: string;
 }
 
-const CysecRoadmap = () => {
+const BackendRoadmap = () => {
     const [overlayItem, setOverlayItem] = useState<RoadmapChildItem | null>(null);
 
     const handleItemClick = (item: RoadmapChildItem) => {
@@ -130,7 +148,7 @@ const CysecRoadmap = () => {
         <div className="bg-gradient-to-b from-black to-gray-800 py-10">
             <Container>
                 <div className="flex flex-col items-center justify-center gap-5 font-display mt-5">
-                    {cysecHero.map((item, index) => (
+                    {backendHero.map((item, index) => (
                         <div key={index} className="flex flex-row gap-5 flex flex-col max-w-195 items-center justify-center border-1 bg-gray rounded-[20px] p-10">
                             <div className="flex flex-col items-start justify-between gap-5">
                                 <h1 className="text-[32px] font-bold text-transparent bg-clip-text bg-gradient-to-b from-white via-orange to-orange">
@@ -151,10 +169,10 @@ const CysecRoadmap = () => {
                 <div className="flex flex-col items-center">
                     <div className="flex flex-col items-center gap-6">
                         <Button variant="roadmap" className="mb-10">
-                            Cyber Security
+                            BackEnd
                         </Button>
                         <div className="flex flex-row items-start gap-12">
-                            {roadmapCysecItems.map((item, index) => (
+                            {roadmapBackendItems.map((item, index) => (
                                 <div key={index} className="flex flex-col items-center">
                                     <Button variant="roadmap" className="mb-15">{item.title}</Button>
                                     <div className="flex flex-col items-center gap-2">
@@ -191,5 +209,5 @@ const CysecRoadmap = () => {
                 );
             };
             
-            export default CysecRoadmap;
+            export default BackendRoadmap;
           

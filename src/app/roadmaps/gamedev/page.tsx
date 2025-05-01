@@ -5,22 +5,22 @@ import Container from "@/components/container";
 import { Button } from "@/components/roadmap-button";
 import RoadmapOverlay from "@/components/roadmap-overlay";
 
-const cysecHero = [
+const gamedevHero = [
     {
-        title: "Cyber Security",
+        title: "Game Development",
         description:
-            "Cybersecurity adalah praktik melindungi sistem komputer, jaringan dan informasi sensitif dari serangan, pencurian, dan kerusakan digital.  Hal ini mencakup berbagai strategi, alat, dan teknologi yang melindungi individu dan organisasi dari ancaman seperti peretasan, malware, phishing, dan rekayasa sosial. ",
+            "Game development adalah proses kreatif dan teknis dalam merancang, mengembangkan, dan mewujudkan aplikasi permainan. Ini merupakan upaya lintas disiplin yang melibatkan kolaborasi individu dengan berbagai keahlian, seperti desain, seni, pemrograman, dan audio. Proses ini biasanya dimulai dengan brainstorming, kemudian dilanjutkan dengan pengembangan mekanik permainan, narasi, dan desain visual.",
         img: "/placeholder.png",
     }
 ]
 
-const roadmapCysecItems = [
+const roadmapGamedevItems = [
     {
-        title: "Cyber Security Foundations",
+        title: "Game Artist",
         children: [
             { 
                 number: "01.", 
-                title: "Linux Commands", 
+                title: "Animasi", 
                 copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
@@ -29,7 +29,7 @@ const roadmapCysecItems = [
             },
             { 
                 number: "02.", 
-                title: "Basic Forensics",
+                title: "Unity Animator",
                 copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
@@ -37,14 +37,41 @@ const roadmapCysecItems = [
                 externalresource3: "Lorem Ipsum Dolor",
 
             },
+            { 
+                number: "03.", 
+                title: "Basic Music Composition",
+                copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
+                otiresource: "Introduction to Animasi",
+                externalresource: "Lorem Ipsum Dolor Sit Amet",
+                externalresource2: "Lipsum",
+                externalresource3: "Lorem Ipsum Dolor",
+            },
         ],
     },
     {
-        title: "Web Exploitations",
+        title: "Game Programming",
         children: [
             { 
+                number: "01.", 
+                title: "C# Basics",
+                copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
+                otiresource: "Introduction to Animasi",
+                externalresource: "Lorem Ipsum Dolor Sit Amet",
+                externalresource2: "Lipsum",
+                externalresource3: "Lorem Ipsum Dolor", 
+            },
+            { 
+                number: "02.", 
+                title: "Unity Basics",
+                copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
+                otiresource: "Introduction to Animasi",
+                externalresource: "Lorem Ipsum Dolor Sit Amet",
+                externalresource2: "Lipsum",
+                externalresource3: "Lorem Ipsum Dolor",
+            },
+            { 
                 number: "03.", 
-                title: "Web Exploitation Introduction",
+                title: "Input Handling",
                 copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
@@ -53,53 +80,57 @@ const roadmapCysecItems = [
             },
             { 
                 number: "04.", 
-                title: "Docker for CTF",
+                title: "Game Manager",
                 copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
                 externalresource2: "Lipsum",
                 externalresource3: "Lorem Ipsum Dolor",
             },
-        ],
-    },
-    {
-        title: "Core Cyber Security Techniques",
-        children: [
             { 
                 number: "05.", 
-                title: "Reverse Engineering",
+                title: "Physics Components",
                 copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
                 externalresource2: "Lipsum",
-                externalresource3: "Lorem Ipsum Dolor",
+                externalresource3: "Lorem Ipsum Dolor", 
             },
             { 
                 number: "06.", 
-                title: "Cryptography",
+                title: "Raycasting",
                 copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
                 externalresource2: "Lipsum",
-                externalresource3: "Lorem Ipsum Dolor",
+                externalresource3: "Lorem Ipsum Dolor", 
+            },
+            { 
+                number: "07.", 
+                title: "Platformer",
+                copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
+                otiresource: "Introduction to Animasi",
+                externalresource: "Lorem Ipsum Dolor Sit Amet",
+                externalresource2: "Lipsum",
+                externalresource3: "Lorem Ipsum Dolor", 
+            },
+            { 
+                number: "08.", 
+                title: "Events and Delegates",
+                copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
+                otiresource: "Introduction to Animasi",
+                externalresource: "Lorem Ipsum Dolor Sit Amet",
+                externalresource2: "Lipsum",
+                externalresource3: "Lorem Ipsum Dolor", 
             },
         ],
     },
     {
-        title: "Advanced Cyber Security Techniques",
+        title: "Game Design",
         children: [
             { 
-                number: "07.", 
-                title: "Binary Exploitation",
-                copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
-                otiresource: "Introduction to Animasi",
-                externalresource: "Lorem Ipsum Dolor Sit Amet",
-                externalresource2: "Lipsum",
-                externalresource3: "Lorem Ipsum Dolor",
-            },
-            { 
-                number: "08.", 
-                title: "Web Exploitation",
+                number: "01.", 
+                title: "HCI & Framework",
                 copywriting: "Materi ini bertujuan untuk memberikan pemahaman tentang pentingnya User Experience dalam proses pengembangan produk. Peserta akan mempelajari bagaimana UX menjadi kunci dalam menciptakan product-market fit, serta bagaimana pengalaman pengguna memengaruhi keberhasilan produk secara keseluruhan.",
                 otiresource: "Introduction to Animasi",
                 externalresource: "Lorem Ipsum Dolor Sit Amet",
@@ -115,7 +146,7 @@ interface RoadmapChildItem {
     title: string;
 }
 
-const CysecRoadmap = () => {
+const GamedevRoadmap = () => {
     const [overlayItem, setOverlayItem] = useState<RoadmapChildItem | null>(null);
 
     const handleItemClick = (item: RoadmapChildItem) => {
@@ -130,7 +161,7 @@ const CysecRoadmap = () => {
         <div className="bg-gradient-to-b from-black to-gray-800 py-10">
             <Container>
                 <div className="flex flex-col items-center justify-center gap-5 font-display mt-5">
-                    {cysecHero.map((item, index) => (
+                    {gamedevHero.map((item, index) => (
                         <div key={index} className="flex flex-row gap-5 flex flex-col max-w-195 items-center justify-center border-1 bg-gray rounded-[20px] p-10">
                             <div className="flex flex-col items-start justify-between gap-5">
                                 <h1 className="text-[32px] font-bold text-transparent bg-clip-text bg-gradient-to-b from-white via-orange to-orange">
@@ -151,10 +182,10 @@ const CysecRoadmap = () => {
                 <div className="flex flex-col items-center">
                     <div className="flex flex-col items-center gap-6">
                         <Button variant="roadmap" className="mb-10">
-                            Cyber Security
+                            Game Development
                         </Button>
                         <div className="flex flex-row items-start gap-12">
-                            {roadmapCysecItems.map((item, index) => (
+                            {roadmapGamedevItems.map((item, index) => (
                                 <div key={index} className="flex flex-col items-center">
                                     <Button variant="roadmap" className="mb-15">{item.title}</Button>
                                     <div className="flex flex-col items-center gap-2">
@@ -191,5 +222,5 @@ const CysecRoadmap = () => {
                 );
             };
             
-            export default CysecRoadmap;
+            export default GamedevRoadmap;
           

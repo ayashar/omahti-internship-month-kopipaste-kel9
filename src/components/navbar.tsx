@@ -13,7 +13,7 @@ const Navbar = () => {
     const pathname = usePathname();
 
     return (
-        <div className="fixed inset-x-0 top-0 z-1000 backdrop-blur-md">
+        <div className="fixed inset-x-0 top-0 z-10 backdrop-blur-md">
             <div className="flex flex-row justify-between items-center border-b ">
                 <div>
                     <Link
