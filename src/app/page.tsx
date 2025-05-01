@@ -2,7 +2,9 @@ import Hero from "./modules/hero"
 
 const page = () => {
   return (
-    <Hero />
+    <div className="bg-gradient-to-b from-black to-light-gray">
+      <Hero />
+    </div>
   )
 }
 
