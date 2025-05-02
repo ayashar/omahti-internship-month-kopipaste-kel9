@@ -11,7 +11,7 @@ const mobappsHero = [
         title: "Mobile Apps",
         description:
             "Pengembangan Mobile Apps adalah proses pembuatan aplikasi perangkat lunak yang dirancang untuk berjalan di perangkat seluler seperti smartphone dan tablet. Hal tersebut termasuk merancang dan mengembangkan antarmuka pengguna, mengintegrasikan layanan backend, dan mengimplementasikan fungsionalitas menggunakan teknologi khusus platform.",
-        img: "/placeholder.png",
+        img: "/MOBAPPS.webp",
     }
 ]
 

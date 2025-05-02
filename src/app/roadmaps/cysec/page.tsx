@@ -11,7 +11,7 @@ const cysecHero = [
         title: "Cyber Security",
         description:
             "Cybersecurity adalah praktik melindungi sistem komputer, jaringan dan informasi sensitif dari serangan, pencurian, dan kerusakan digital.  Hal ini mencakup berbagai strategi, alat, dan teknologi yang melindungi individu dan organisasi dari ancaman seperti peretasan, malware, phishing, dan rekayasa sosial. ",
-        img: "/placeholder.png",
+        img: "/CYSEC.webp",
     }
 ]
 
@@ -132,7 +132,7 @@ const CysecRoadmap = () => {
     };
 
     return (
-        <div className="bg-gradient-to-b from-black to-gray-800 py-10">
+        <div className="bg-gradient-to-b from-black to-light-gray py-10">
             <Container>
                 <div className="flex flex-col items-center justify-center gap-5 font-display mt-5">
                     {cysecHero.map((item, index) => (

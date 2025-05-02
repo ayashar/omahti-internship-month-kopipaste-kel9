@@ -40,7 +40,7 @@ const archiveNav = [
 
 const archiveHero = () => {
     return (
-        <div className="bg-gradient-to-b from-black to-gray-800 pb-30">
+        <div className="bg-gradient-to-b from-black to-light-gray pb-30">
             <Container className="flex flex-col gap-10 font-display mt-15 mb-30 items-center">
                 <h1 className="font-bold text-[32px] text-transparent bg-clip-text bg-gradient-to-b from-white via-orange to-orange">
                     Archive

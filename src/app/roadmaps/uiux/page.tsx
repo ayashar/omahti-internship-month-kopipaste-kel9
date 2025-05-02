@@ -11,7 +11,7 @@ const uiuxHero = [
         title: "UI/UX",
         description:
             "UI/UX adalah bagian dari pengembangan situs web yang menerjemahkan kreativitas ke dalam desain dan mempelajari kecenderungan interaksi antara pengguna dan sebuah antarmuka. Desain yang dimaksud tidak hanya terbatas pada desain antarmuka perangkat, tetapi juga mencakup ikon vektor, ilustrasi, dan sebagainya. Interaksi antara pengguna dengan antarmuka lebih difokuskan pada pengalaman yang dapat dirasakan oleh pengguna saat menggunakan fitur-fitur yang ada pada antarmuka tersebut.",
-        img: "/placeholder.png",
+        img: "/uiux.webp",
     }
 ]
 

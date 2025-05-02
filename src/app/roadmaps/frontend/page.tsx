@@ -11,7 +11,7 @@ const frontendHero = [
         title: "FrontEnd",
         description:
             "Frontend adalah bagian dari pengembangan situs web yang berfokus pada desain visual dan pengalaman pengguna. Frontend mencakup bagaimana konten ditampilkan dan bagaimana pengunjung dapat berinteraksi dengan komponen-komponen di situs web, dengan tujuan untuk membuat situs lebih ramah pengguna dan menarik.",
-        img: "/placeholder.png",
+        img: "/FRONTEND.webp",
     }
 ]
 

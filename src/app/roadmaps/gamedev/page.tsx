@@ -11,7 +11,7 @@ const gamedevHero = [
         title: "Game Development",
         description:
             "Game development adalah proses kreatif dan teknis dalam merancang, mengembangkan, dan mewujudkan aplikasi permainan. Ini merupakan upaya lintas disiplin yang melibatkan kolaborasi individu dengan berbagai keahlian, seperti desain, seni, pemrograman, dan audio. Proses ini biasanya dimulai dengan brainstorming, kemudian dilanjutkan dengan pengembangan mekanik permainan, narasi, dan desain visual.",
-        img: "/placeholder.png",
+        img: "/gamedev.webp",
     }
 ]
 

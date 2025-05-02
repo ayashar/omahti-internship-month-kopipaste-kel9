@@ -11,7 +11,7 @@ const backendHero = [
         title: "BackEnd",
         description:
             "Backend adalah cabang ilmu komputer yang melibatkan perancangan, pembangunan, dan pemeliharaan bagian server aplikasi web. Hal ini termasuk bekerja dengan database, API, dan logika server untuk memungkinkan front-end aplikasi berfungsi dengan lancar. Pengembang backend bertanggung jawab untuk memastikan kinerja, keamanan, dan skalabilitas infrastruktur server aplikasi, dan untuk membuat sistem yang mudah dipelihara dan diperbarui dari waktu ke waktu.",
-        img: "/placeholder.png",
+        img: "/backend.webp",
     }
 ]
 

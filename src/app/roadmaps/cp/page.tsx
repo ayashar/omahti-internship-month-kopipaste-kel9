@@ -11,7 +11,7 @@ const cpHero = [
         title: "Competitive Programming",
         description:
             "Competitive Programming adalah sebuah bentuk perlombaan IT dimana peserta diberikan soal-soal yang diselesaikan dengan mendesain sebuah program yang memproses sejumlah input menjadi output yang diminta dalam jangka waktu yang terbatas. Peserta dituntut untuk mengimplementasikan programnya dengan benar dan efisien agar jawabannya diterima.",
-        img: "/placeholder.png",
+        img: "/CP.webp",
     }
 ]
 

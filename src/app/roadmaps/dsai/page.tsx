@@ -11,7 +11,7 @@ const gamedevHero = [
         title: "Data Sciende and Artificial Intelligence",
         description:
             "Data Science dan Artificial Intellegence adalah bidang yang berfokus pada pengembangan dan penerapan strategi, teknologi, serta metodologi untuk memanfaatkan data dalam mendorong hasil bisnis. Bidang ini mencakup pekerjaan para data scientists, AI researchers, dan engineers yang mengumpulkan dan menganalisis data, merancang algoritma, serta membangun sistem cerdas untuk mengotomatisasi tugas, menghasilkan wawasan, dan mendukung pengambilan keputusan.",
-        img: "/placeholder.png",
+        img: "/DSAI.webp",
     }
 ]
 
